@@ -23,13 +23,13 @@ function Certifications() {
                 <h3 className="text-2xl font-semibold my-2">
                   {certificate?.title}
                 </h3>
-                <div className="flex justify-between gap-1">
+                <div className="flex justify-between gap-2">
                   <img
                     src={certificate.image}
                     alt={certificate.platform}
-                    width="30px"
-                    height="30px"
+                    className="w-[30px] h-[30px] mt-2"
                   />
+
                   <h3 className="text-xl italic font-semibold my-2">
                     {certificate?.platform}
                   </h3>
