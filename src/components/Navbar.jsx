@@ -30,7 +30,7 @@ function Navbar() {
       </div>
       <div className="md:hidden">
         <button onClick={toggleMenu} className="focus:outline-none">
-          {isOpen ? <FaTimes size={22} /> : <FaBars size={22} />}
+          {isOpen ? <FaTimes size={23} /> : <FaBars size={23} />}
         </button>
       </div>
       {isOpen && (
