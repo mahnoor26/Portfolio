@@ -14,7 +14,7 @@ function Projects() {
         {projects?.map((project, index) => (
           <div
             key={index}
-            className="mb-10 p-3 flex flex-col justify-center border-2 drop-shadow-xl rounded-xl bg-slate-200 text-gray-950"
+            className="mb-10 px-5 py-4 flex flex-col justify-center border-2 drop-shadow-xl rounded-xl bg-slate-200 text-gray-950"
           >
             <h3 className="text-2xl font-semibold my-2">{project?.title}</h3>
             <p>{project?.description}</p>

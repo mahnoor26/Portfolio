@@ -101,7 +101,7 @@ export const projects = [
       "Vision Guide is a comprehensive platform developed with MongoDB, ReactJS, NodeJS, Express, and Bootstrap, designed to connect users with mentors for scheduling meetings, managing transactions, and tracking progress.",
     // image: {vpn},
     git: "https://github.com/mahnoor26/Vision-Guide",
-    technologies: ["MongoDb", "ReactJS", "NodeJS", "Express", "Bootstrap"],
+    technologies: ["MongoDb", "ReactJS", "NodeJS", "BS5"],
   },
   {
     title: "CRUD App",

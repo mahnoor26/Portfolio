@@ -10,9 +10,9 @@ function Navbar() {
   };
 
   return (
-    <nav className="w-full fixed z-10 opacity-100 text-white bg-cyan-950 flex items-center justify-between px-10 py-4">
+    <nav className="w-full fixed z-10 opacity-100 text-white bg-cyan-950 flex items-center justify-between px-5 px-md-10 py-4">
       <div>
-        <p className="text-xl font-bold">Mahnoor</p>
+        <p className="text-xl font-semibold">Mahnoor</p>
       </div>
       <div className="hidden md:flex space-x-7">
         <a href="#home">Home</a>
@@ -30,11 +30,11 @@ function Navbar() {
       </div>
       <div className="md:hidden">
         <button onClick={toggleMenu} className="focus:outline-none">
-          {isOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+          {isOpen ? <FaTimes size={22} /> : <FaBars size={22} />}
         </button>
       </div>
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-cyan-950 text-white flex flex-col space-y-8 py-8 px-10 md:hidden text-xl ">
+        <div className="absolute top-16 left-0 w-full bg-cyan-950 text-white flex flex-col space-y-8 py-8 px-6 md:hidden text-xl ">
           <a href="#home" onClick={toggleMenu}>
             Home
           </a>
